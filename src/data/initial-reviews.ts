@@ -1,0 +1,125 @@
+import { Review } from '../types/ecommerce';
+
+export const INITIAL_REVIEWS: Review[] = [
+  // prod-1: Relaxed Cashmere Crewneck
+  {
+    id: 'rev-101',
+    productId: 'prod-1',
+    authorName: 'Elena Rostova',
+    authorEmail: 'elena.r@example.com',
+    rating: 5,
+    title: 'Unbelievably soft and sublime drape',
+    comment: 'The Grade-A Mongolian cashmere feels like a cloud against the skin. I wore this on a 9-hour flight and it did not wrinkle or lose shape. The Oatmeal Heather shade pairs with virtually everything in my capsule wardrobe.',
+    createdAt: '2026-10-14T09:30:00.000Z',
+    verifiedPurchase: true,
+    fitFeedback: 'True to Size',
+    helpfulCount: 18,
+  },
+  {
+    id: 'rev-102',
+    productId: 'prod-1',
+    authorName: 'Marcus Vance',
+    authorEmail: 'marcus.v@example.com',
+    rating: 5,
+    title: 'True investment piece worth every cent',
+    comment: 'Heavier weight than typical department store cashmere. The ribbing along the hem and collar is reinforced nicely so it will not sag over time. Minimalist styling at its finest.',
+    createdAt: '2026-10-22T14:15:00.000Z',
+    verifiedPurchase: true,
+    fitFeedback: 'True to Size',
+    helpfulCount: 9,
+  },
+  {
+    id: 'rev-103',
+    productId: 'prod-1',
+    authorName: 'Claire S.',
+    rating: 4,
+    title: 'Luxurious feel, slightly relaxed cut',
+    comment: 'Delightfully soft. If you prefer a snug tailored fit, size down; if you prefer the modern relaxed silhouette shown in the editorial lookbook, order your normal size.',
+    createdAt: '2026-11-01T11:00:00.000Z',
+    verifiedPurchase: true,
+    fitFeedback: 'Runs Large',
+    helpfulCount: 4,
+  },
+
+  // prod-2: Tailored Wool-Blend Overcoat
+  {
+    id: 'rev-201',
+    productId: 'prod-2',
+    authorName: 'Alexander Hayes',
+    rating: 5,
+    title: 'Architectural silhouette and warm heavy wool',
+    comment: 'The drape and cut on this coat is phenomenal. Received multiple compliments on my commute. The Italian recycled wool has real density and blocks brisk wind effortlessly.',
+    createdAt: '2026-09-28T16:45:00.000Z',
+    verifiedPurchase: true,
+    fitFeedback: 'True to Size',
+    helpfulCount: 22,
+  },
+  {
+    id: 'rev-202',
+    productId: 'prod-2',
+    authorName: 'Sophia Lin',
+    rating: 5,
+    title: 'Timeless luxury that rivals bespoke coats',
+    comment: 'The calf-grazing hem and horn buttons elevate this far above typical retail coats. Horn buttons are securely stitched and the viscose lining glides over knitwear without dragging.',
+    createdAt: '2026-10-18T10:20:00.000Z',
+    verifiedPurchase: true,
+    fitFeedback: 'True to Size',
+    helpfulCount: 11,
+  },
+
+  // prod-3: Pleated Wide-Leg Wool Trousers
+  {
+    id: 'rev-301',
+    productId: 'prod-3',
+    authorName: 'Daria M.',
+    rating: 5,
+    title: 'The cleanest drape I have ever worn',
+    comment: 'The front double pleats create an elegant vertical line that elongates the legs. Perfect with loafers or Chelsea boots. Waist runs exactly true to measurement.',
+    createdAt: '2026-10-05T18:10:00.000Z',
+    verifiedPurchase: true,
+    fitFeedback: 'True to Size',
+    helpfulCount: 15,
+  },
+
+  // prod-4: Merino Wool Ribbed Turtleneck
+  {
+    id: 'rev-401',
+    productId: 'prod-4',
+    authorName: 'Julian Thorne',
+    rating: 5,
+    title: 'Zero itch, ideal under a blazer',
+    comment: 'The extra-fine Australian Merino is silky smooth against the neck without any itchiness. Does not feel suffocating at all. Keeps its shape throughout a full workday.',
+    createdAt: '2026-10-12T13:40:00.000Z',
+    verifiedPurchase: true,
+    fitFeedback: 'True to Size',
+    helpfulCount: 8,
+  },
+
+  // prod-5: Minimalist Cotton Poplin Shirt
+  {
+    id: 'rev-501',
+    productId: 'prod-5',
+    authorName: 'Hannah Weber',
+    rating: 4,
+    title: 'Crisp, structured organic poplin',
+    comment: 'Love the hidden placket and curved hem. It gives a sharp architectural vibe without being overly formal. Lightly iron or steam out of the wash for a crisp look.',
+    createdAt: '2026-10-29T15:20:00.000Z',
+    verifiedPurchase: true,
+    fitFeedback: 'True to Size',
+    helpfulCount: 6,
+  },
+
+  // prod-7: Heavyweight French Terry Hoodie
+  {
+    id: 'rev-701',
+    productId: 'prod-7',
+    authorName: 'Tyler B.',
+    rating: 5,
+    title: 'Substantial 460 GSM weight - built like armor',
+    comment: 'Double-layered hood actually stands up cleanly on its own! The loopback cotton is plush and comfortable. A staple for cold mornings.',
+    createdAt: '2026-11-02T08:15:00.000Z',
+    verifiedPurchase: true,
+    fitFeedback: 'True to Size',
+    helpfulCount: 14,
+  },
+];

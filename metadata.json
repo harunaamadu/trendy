@@ -1,0 +1,8 @@
+{
+  "name": "Trendy - Modern Minimalist Clothing Store",
+  "description": "A full-stack modern e-commerce clothing store featuring real-time inventory management, intuitive product grids, interactive quick view, cart drawer, and secure payment processing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
